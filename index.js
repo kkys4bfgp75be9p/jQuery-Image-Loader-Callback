@@ -9,7 +9,7 @@
       if (!image.complete)
         return self.loadImage(src,cb,image)
 
-      $rocketJ(self).attr('src',src)
+      $(self).attr('src',src)
       cb.call(this)
     },50);
   };
