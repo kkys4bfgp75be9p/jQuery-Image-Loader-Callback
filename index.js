@@ -2,7 +2,6 @@
   $.fn.loadImage = function(src,cb,image) {
     var self = this,
     image = image || new Image();
-
     setTimeout(function() {
       if (image.src != src)
         image.src = src;
@@ -10,7 +9,7 @@
         return self.loadImage(src,cb,image)
 
       $(self).attr('src',src)
-      cb.call(this)
+      cb.call(self)
     },50);
   };
-});
+})( jQuery );
