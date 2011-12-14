@@ -17,6 +17,8 @@ $(document).ready(function(){
 	});
 });
 ```
+### Example:
+[Example code on JS Fiddle](http://jsfiddle.net/jamescharlesworth/tBFKv/)
 ### License
 (The MIT License)
 
